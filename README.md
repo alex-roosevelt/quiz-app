@@ -23,6 +23,15 @@ The application will start running on http://localhost:8080.
 
 ## APIs
 
+### Check Answer
+
+- **URL:** `/api/quiz/checkAnswer`
+- **Method:** `POST`
+- **Description:** Check if the user's answer to a quiz question is correct.
+- **Request Parameters:** `questionId` - ID of the question, `userAnswer` - User's answer to the question.
+- **Response:** Boolean value (`true` if the answer is correct, `false` otherwise).
+
+
 ### Get All Questions
 
 - **URL:** `/api/questions`
