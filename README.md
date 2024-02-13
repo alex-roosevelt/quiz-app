@@ -4,7 +4,7 @@ This is a simple Quiz Application backend developed using Spring Boot framework.
 
 ## Prerequisites
 
-- Java 11
+- Java 17
 - Maven
 
 ## Running the Application
